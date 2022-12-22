@@ -1,0 +1,36 @@
+.item-container{
+  
+    display: flex;
+    margin: 10px;
+    padding: 1rem .5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+   
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;     
+    }
+
+    .card{
+       
+            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+
+        
+    }
+}
+
+.name{
+    display: flex;
+    font-size: 20px;
+}
+.list-group-item {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+
+input[aria-invalid='true'] {
+    border: 3px solid red;
+  }
