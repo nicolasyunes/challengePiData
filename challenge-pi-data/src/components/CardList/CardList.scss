@@ -1,0 +1,11 @@
+.container-list{
+  
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+}
+
+
+.input[aria-invalid='true'] {
+    border: 3px solid red;
+  }
